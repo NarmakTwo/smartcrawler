@@ -1,0 +1,10 @@
+[
+  "*://*.googlesyndication.com",
+  "*://*.googletagmanager.com",
+  "*://*.google-analytics.com",
+  "*://*.googleadservices.com",
+  "*://*.doubleclick.net",
+  "*://*.googleapis.com",
+  "*://*.gstatic.com",
+  "*://cdn.tailwindcss.com"
+]

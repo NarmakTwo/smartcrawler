@@ -1,0 +1,25 @@
+{
+  "name": "deep-mirror",
+  "version": "1.0.0",
+  "description": "Crawl a web app, discover every URL it requests, and mirror it into an offline static site",
+  "type": "module",
+  "bin": {
+    "deep-mirror": "./crawl.js"
+  },
+  "files": [
+    "crawl.js",
+    "lib"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@webassemblyjs/ast": "^1.14.1",
+    "@webassemblyjs/wasm-parser": "^1.14.1",
+    "acorn": "^8.19.0",
+    "cyberchef-node": "^3.0.2",
+    "got": "^16.2.0",
+    "jsdom": "^29.1.1",
+    "restringer": "^2.3.0"
+  }
+}
